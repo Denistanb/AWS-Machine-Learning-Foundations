@@ -84,7 +84,7 @@ If you're exploring how **machine learning works in the cloud**, or want to unde
 
 ## 📂 How to Use This Repo
 
-1. **Clone this repository**:
+**Clone this repository**:
    ```bash
    git clone https://github.com/Denistanb/AWS-Machine-Learning-Foundations.git
    cd AWS-Machine-Learning-Foundations
