@@ -1,90 +1,103 @@
-# 🚀 AWS Machine Learning Foundations – Learning Journey  
+# AWS Machine Learning Foundations
 
-This repository contains all my hands-on work and notes from the **AWS Machine Learning Foundations** course offered by **AWS Academy**. The course is designed to teach the **end-to-end machine learning lifecycle**, using real AWS tools like **Amazon SageMaker**, **Rekognition**, **Forecast**, and **Comprehend**.
+## Project Description
 
-If you're exploring how **machine learning works in the cloud**, or want to understand how to build and deploy ML models using AWS services — this repo is for you.
+This project is a comprehensive collection of resources, notebooks, and code examples designed to help learners build a strong foundation in machine learning using AWS services. It covers essential machine learning concepts and provides practical examples leveraging AWS cloud tools and infrastructure, making it suitable for beginners and intermediate practitioners aiming to apply ML in scalable cloud environments.
 
----
+## Features
 
-## 📚 What I Learned
+- Step-by-step tutorials and Jupyter notebooks for hands-on learning
+- Practical applications of machine learning concepts
+- Integration with AWS services such as S3, SageMaker, and Lambda
+- Example datasets for experimentation
+- Modular codebase for easy extensibility
+- Sample end-to-end ML pipelines
 
-### 🧠 Machine Learning Fundamentals
-- What is Machine Learning?
-- Real-world business problems solved by ML
-- Overview of ML process and tools
-- Common ML challenges
-- Demo: Introduction to **Amazon SageMaker**
+## Tech Stack
 
----
+- Python
+- Jupyter Notebooks
+- AWS SageMaker
+- AWS S3
+- AWS Lambda
+- NumPy, Pandas, scikit-learn, Matplotlib, and other ML libraries
 
-### 🧰 Working with Data
-- Formulating ML problems from business goals
-- Data collection, transformation (ETL), and security
-- Exploring and evaluating data
-- Feature engineering (cleaning, encoding, handling outliers)
-- Labs:
-  - Create & import data in SageMaker
-  - Explore datasets
-  - Encode categorical features
+## Getting Started
 
----
+Follow these instructions to get a copy of this project up and running on your local machine and AWS environment.
 
-### 🏗️ Model Building and Evaluation
-- Training models with SageMaker
-- Hosting and deploying trained models
-- Evaluating model performance (accuracy, precision, recall)
-- Classification metrics and threshold tuning
-- Hyperparameter tuning using SageMaker and Autopilot
-- Labs & Demos:
-  - Model training & deployment
-  - Generating performance metrics
-  - Hyperparameter tuning
+### Prerequisites
 
----
+- Python 3.8 or higher
+- pip (Python package manager)
+- An AWS account with permissions for SageMaker, S3, and Lambda
+- AWS CLI configured on your machine
 
-### 📈 Forecasting with Time Series Data
-- Time series fundamentals and preprocessing
-- Using **Amazon Forecast** for automated time series predictions
-- Simulation: Build forecasts with SageMaker Canvas
+### Installation
 
----
-
-### 👁️‍🗨️ Computer Vision
-- Image and video analysis using AWS tools
-- Face recognition and labeling using **Amazon Rekognition**
-- Building custom datasets for training & testing
-- Data labeling with **Amazon Ground Truth**
-
----
-
-### 🗣️ Natural Language Processing (NLP)
-- Basics of NLP and common use cases
-- Using **Amazon Comprehend**, **Polly**, and **Translate**
-- Hands-on demos with managed NLP services
-
----
-
-### 🤖 Generative AI with AWS
-- What is Generative AI?
-- Prompt engineering basics
-- Exploring **Foundation Models (FMs)** in AWS
-- Using **Amazon Q Developer** to create ML models with code
-
----
-
-## 🛠️ Tools & Technologies Used
-- ✅ Amazon SageMaker
-- ✅ Amazon Forecast
-- ✅ Amazon Rekognition
-- ✅ Amazon Comprehend, Polly, Translate
-- ✅ SageMaker Canvas & Ground Truth
-- ✅ Amazon Q Developer
-
----
-
-## 📂 How to Use This Repo
-
-**Clone this repository**:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/Denistanb/AWS-Machine-Learning-Foundations.git
    cd AWS-Machine-Learning-Foundations
+   ```
+
+2. **Set up a virtual environment (optional but recommended):**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Install required dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Configure AWS CLI:**
+   ```bash
+   aws configure
+   ```
+
+### Usage
+
+- Open Jupyter Notebook:
+  ```bash
+  jupyter notebook
+  ```
+- Navigate to the desired notebook and follow the instructions for each module.
+- To run SageMaker jobs or interact with AWS services, ensure your AWS credentials are properly configured.
+
+## Project Structure
+
+```
+AWS-Machine-Learning-Foundations/
+│
+├── data/               # Sample datasets and data loaders
+├── notebooks/          # Jupyter notebooks for tutorials and experiments
+├── src/                # Python modules and utility scripts
+├── requirements.txt    # Python dependencies
+├── README.md           # Project documentation
+└── LICENSE             # License file
+```
+
+- **data/**: Contains datasets used for training and evaluation.
+- **notebooks/**: Step-by-step guides and hands-on experiments.
+- **src/**: Source code, functions, and classes for ML models and utilities.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a pull request describing your changes
+
+## Contact
+
+For questions and feedback, please open an issue or contact the maintainer:
+
+- GitHub: [Denistanb](https://github.com/Denistanb)
+- Email: [denistanb@gmail.com]
+
+---
