@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is a comprehensive collection of resources, notebooks, and code examples designed to help learners build a strong foundation in machine learning using AWS services. It covers essential machine learning concepts and provides practical examples leveraging AWS cloud tools and infrastructure, making it suitable for beginners and intermediate practitioners aiming to apply ML in scalable cloud environments.
+This learning journey is a curated collection of resources, Jupyter notebooks, and code examples aimed at empowering learners to develop a solid foundation in machine learning using AWS services. It explores key machine learning concepts through hands-on, cloud-based exercises and real-world scenarios, enabling both beginners and intermediate practitioners to effectively apply ML techniques within scalable AWS environments.
 
 ## Features
 
@@ -71,12 +71,17 @@ Follow these instructions to get a copy of this project up and running on your l
 ```
 AWS-Machine-Learning-Foundations/
 │
-├── data/               # Sample datasets and data loaders
-├── notebooks/          # Jupyter notebooks for tutorials and experiments
-├── src/                # Python modules and utility scripts
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation
-└── LICENSE             # License file
+├── 3_3-machinelearning.ipynb        # Lab notebook: categorical encoding with automobile dataset
+├── 3_4-machinelearning.ipynb        # Lab notebook: data splitting and XGBoost with SageMaker
+├── 3_5-machinelearning.ipynb        # Lab notebook: model deployment and batch transform
+├── 3_6-machinelearning.ipynb        # Lab notebook: model evaluation and metrics
+├── 3_7-machinelearning.ipynb        # Lab notebook: hyperparameter tuning
+├── Vertebral Column.ipynb           # Notebook for vertebral column dataset
+├── data/                            # (If present) Sample datasets and data loaders
+├── notebooks/                       # (If present) Additional or legacy Jupyter notebooks
+├── src/                             # (If present) Python modules and utility scripts
+└── requirements.txt                 # Python dependencies
+
 ```
 
 - **data/**: Contains datasets used for training and evaluation.
