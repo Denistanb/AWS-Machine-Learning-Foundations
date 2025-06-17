@@ -98,6 +98,6 @@ Contributions are welcome! To contribute:
 For questions and feedback, please open an issue or contact the maintainer:
 
 - GitHub: [Denistanb](https://github.com/Denistanb)
-- Email: [denistanb@gmail.com]
+- Email: denistanb@gmail.com
 
 ---
