@@ -1,4 +1,4 @@
-# 🚀 AWS Machine Learning Foundations – Learning Journey  
+# AWS Machine Learning Foundations – Learning Journey  
 
 This repository contains all my hands-on work and notes from the **AWS Machine Learning Foundations** course offered by **AWS Academy**. The course is designed to teach the **end-to-end machine learning lifecycle**, using real AWS tools like **Amazon SageMaker**, **Rekognition**, **Forecast**, and **Comprehend**.
 
