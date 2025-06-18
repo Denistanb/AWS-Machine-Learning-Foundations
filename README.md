@@ -121,7 +121,7 @@ AWS-Machine-Learning-Foundations/
 ├── 3_7-machinelearning.ipynb        # Hyperparameter tuning
 ├── Flight_Delay-Student.ipynb       # Time series/forecasting lab
 ├── Lab 6/                           # Chatbot in website
-└── Vertebral Column.ipynb           # Classic dataset classification
+└── Vertebral Column.ipynb           # Vertebral column classification
 ```
 
 - **data/**: Contains datasets used for training and evaluation.
