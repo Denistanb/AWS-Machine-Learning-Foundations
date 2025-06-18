@@ -23,8 +23,6 @@ If you're exploring how **machine learning works in the cloud**, or want to unde
   - Explore datasets
   - Encode categorical features
 
----
-
 ### Model Building and Evaluation
 - Training models with SageMaker
 - Hosting and deploying trained models
