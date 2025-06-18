@@ -4,8 +4,6 @@ This repository contains all my hands-on work and notes from the **AWS Machine L
 
 If you're exploring how **machine learning works in the cloud**, or want to understand how to build and deploy ML models using AWS services — this repo is for you.
 
----
-
 ## What I Learned
 
 ### Machine Learning Fundamentals
@@ -14,8 +12,6 @@ If you're exploring how **machine learning works in the cloud**, or want to unde
 - Overview of ML process and tools
 - Common ML challenges
 - Demo: Introduction to **Amazon SageMaker**
-
----
 
 ### Working with Data
 - Formulating ML problems from business goals
@@ -40,14 +36,10 @@ If you're exploring how **machine learning works in the cloud**, or want to unde
   - Generating performance metrics
   - Hyperparameter tuning
 
----
-
 ### Forecasting with Time Series Data
 - Time series fundamentals and preprocessing
 - Using **Amazon Forecast** for automated time series predictions
 - Simulation: Build forecasts with SageMaker Canvas
-
----
 
 ### Computer Vision
 - Image and video analysis using AWS tools
@@ -55,14 +47,10 @@ If you're exploring how **machine learning works in the cloud**, or want to unde
 - Building custom datasets for training & testing
 - Data labeling with **Amazon Ground Truth**
 
----
-
 ### Natural Language Processing (NLP)
 - Basics of NLP and common use cases
 - Using **Amazon Comprehend**, **Polly**, and **Translate**
 - Hands-on demos with managed NLP services
-
----
 
 ### Generative AI with AWS
 - What is Generative AI?
@@ -70,17 +58,13 @@ If you're exploring how **machine learning works in the cloud**, or want to unde
 - Exploring **Foundation Models (FMs)** in AWS
 - Using **Amazon Q Developer** to create ML models with code
 
----
-
-## 🛠️ Tools & Technologies Used
-- ✅ Amazon SageMaker
-- ✅ Amazon Forecast
-- ✅ Amazon Rekognition
-- ✅ Amazon Comprehend, Polly, Translate
-- ✅ SageMaker Canvas & Ground Truth
-- ✅ Amazon Q Developer
-
----
+## Tools & Technologies Used
+- Amazon SageMaker
+- Amazon Forecast
+- Amazon Rekognition
+- Amazon Comprehend, Polly, Translate
+- SageMaker Canvas & Ground Truth
+- Amazon Q Developer
 
 ## Getting Started
 
